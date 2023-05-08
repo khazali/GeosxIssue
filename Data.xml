@@ -1,0 +1,1038 @@
+<?xml version="1.0" ?>
+
+<Problem>
+	<Mesh>
+		<VTKMesh
+			name="mesh"
+			file="Grid_thr.vtu"/>
+				
+
+			<InternalWell
+				name="Injector_1_W"
+				wellRegionName="wellRegion1"
+				wellControlsName="wellControls1"
+				meshName="mesh"
+				polylineNodeCoords="{ { 4.9999999998, 1100.0, -0.0 },
+									{ 4.9999999998, 1100.0, -1900.0 },
+									{ 5.0, 1099.8207714, -1908.191845 },
+									{ 5.0000000029, 1099.2834268, -1916.368095 },
+									{ 5.0000000158, 1098.388989, -1924.513189 },
+									{ 5.0000000504, 1097.1391607, -1932.61162 },
+									{ 5.0000001228, 1095.5363209, -1940.647973 },
+									{ 5.0000002541, 1093.5835208, -1948.60695 },
+									{ 5.000000469, 1091.2844776, -1956.473401 },
+									{ 5.0000007966, 1088.6435678, -1964.232352 },
+									{ 5.0000012693, 1085.6658183, -1971.869033 },
+									{ 5.0000019232, 1082.3568976, -1979.368907 },
+									{ 5.0000027969, 1078.7231043, -1986.717698 },
+									{ 5.0000039325, 1074.7713556, -1993.901416 },
+									{ 5.0000053736, 1070.5091739, -2000.906389 },
+									{ 5.0000071658, 1065.9446724, -2007.71928 },
+									{ 5.0000093561, 1061.08654, -2014.327121 },
+									{ 5.0000119925, 1055.9440244, -2020.717334 },
+									{ 5.0000151228, 1050.5269146, -2026.877755 },
+									{ 5.000018796, 1044.8455225, -2032.796657 },
+									{ 5.0000230586, 1038.9106628, -2038.462772 },
+									{ 5.0000279575, 1032.733633, -2043.865317 },
+									{ 5.0000335374, 1026.3261913, -2048.994005 },
+									{ 5.000039841, 1019.7005347, -2053.839074 },
+									{ 5.0000469082, 1012.8692755, -2058.391303 },
+									{ 5.0000547757, 1005.8454174, -2062.642024 },
+									{ 5.0000634774, 998.6423307, -2066.583147 },
+									{ 5.0000730425, 991.27372688, -2070.20717 },
+									{ 5.0000834958, 983.7536325, -2073.507193 },
+									{ 5.0000948581, 976.09636248, -2076.476936 },
+									{ 5.0001071444, 968.31649289, -2079.110745 },
+									{ 5.0001203644, 960.42883313, -2081.403606 },
+									{ 5.0001345224, 952.44839783, -2083.351156 },
+									{ 5.0001496166, 944.39037819, -2084.949686 },
+									{ 5.0001656392, 936.27011311, -2086.196154 },
+									{ 5.0001825758, 928.10305998, -2087.088186 },
+									{ 5.0002004064, 919.90476524, -2087.624086 },
+									{ 5.0002191038, 911.69083482, -2087.802833 },
+									{ 5.0029817125, 405.32931209, -2087.802833 },
+									{ 5.0074187396, 4.2508782771, -2087.802833 } }"
+
+				polylineSegmentConn="{ { 0, 1 },
+									{ 1, 2 },
+									{ 2, 3 },
+									{ 3, 4 },
+									{ 4, 5 },
+									{ 5, 6 },
+									{ 6, 7 },
+									{ 7, 8 },
+									{ 8, 9 },
+									{ 9, 10 },
+									{ 10, 11 },
+									{ 11, 12 },
+									{ 12, 13 },
+									{ 13, 14 },
+									{ 14, 15 },
+									{ 15, 16 },
+									{ 16, 17 },
+									{ 17, 18 },
+									{ 18, 19 },
+									{ 19, 20 },
+									{ 20, 21 },
+									{ 21, 22 },
+									{ 22, 23 },
+									{ 23, 24 },
+									{ 24, 25 },
+									{ 25, 26 },
+									{ 26, 27 },
+									{ 27, 28 },
+									{ 28, 29 },
+									{ 29, 30 },
+									{ 30, 31 },
+									{ 31, 32 },
+									{ 32, 33 },
+									{ 33, 34 },
+									{ 34, 35 },
+									{ 35, 36 },
+									{ 36, 37 },
+									{ 37, 38 },
+									{ 38, 39 } }"
+				radius="0.1"
+				numElementsPerSegment="1">
+				<Perforation
+					name="Injector_1_W_perf1"
+					distanceFromHead="2159.572380641269"/>
+				<Perforation
+					name="Injector_1_W_perf2"
+					distanceFromHead="2211.3902272517053"/>
+				<Perforation
+					name="Injector_1_W_perf3"
+					distanceFromHead="2559.661340210506"/>
+				<Perforation
+					name="Injector_1_W_perf4"
+					distanceFromHead="2953.317389595501"/>
+				<Perforation
+					name="Injector_1_W_perf5"
+					distanceFromHead="3069.1938959954314"/>
+			</InternalWell>
+
+
+
+			<InternalWell
+				name="Injector_2_W"
+				wellRegionName="wellRegion1"
+				wellControlsName="wellControls1"
+				meshName="mesh"
+				polylineNodeCoords="{ { 385.0, 1100.0, -0.0 },
+									{ 385.0, 1100.0, -1900.0 },
+									{ 385.0, 1099.8207722, -1908.191845 },
+									{ 385.0, 1099.2834301, -1916.368095 },
+									{ 385.00000002, 1098.3889965, -1924.513189 },
+									{ 385.00000005, 1097.1391741, -1932.61162 },
+									{ 385.00000012, 1095.5363418, -1940.647973 },
+									{ 385.00000025, 1093.5835509, -1948.60695 },
+									{ 385.00000047, 1091.2845185, -1956.473401 },
+									{ 385.0000008, 1088.6436211, -1964.232352 },
+									{ 385.00000127, 1085.6658856, -1971.869033 },
+									{ 385.00000192, 1082.3569804, -1979.368907 },
+									{ 385.00000279, 1078.7232042, -1986.717698 },
+									{ 385.00000393, 1074.7714741, -1993.901416 },
+									{ 385.00000537, 1070.5093123, -2000.906389 },
+									{ 385.00000716, 1065.9448323, -2007.71928 },
+									{ 385.00000935, 1061.0867227, -2014.327121 },
+									{ 385.00001198, 1055.9442312, -2020.717334 },
+									{ 385.00001511, 1050.5271469, -2026.877755 },
+									{ 385.00001878, 1044.8457814, -2032.796657 },
+									{ 385.00002304, 1038.9109496, -2038.462772 },
+									{ 385.00002794, 1032.7339487, -2043.865317 },
+									{ 385.00003351, 1026.3265371, -2048.994005 },
+									{ 385.00003981, 1019.7009117, -2053.839074 },
+									{ 385.00004687, 1012.8696845, -2058.391303 },
+									{ 385.00005473, 1005.8458594, -2062.642024 },
+									{ 385.00006343, 998.64280649, -2066.583147 },
+									{ 385.00007299, 991.27423725, -2070.20717 },
+									{ 385.00008343, 983.75417817, -2073.507193 },
+									{ 385.00009479, 976.0969441, -2076.476936 },
+									{ 385.00010706, 968.31711103, -2079.110745 },
+									{ 385.00012027, 960.4294883, -2081.403606 },
+									{ 385.00013442, 952.44909046, -2083.351156 },
+									{ 385.0001495, 944.39110864, -2084.949686 },
+									{ 385.00016551, 936.27088168, -2086.196154 },
+									{ 385.00018244, 928.10386688, -2087.088186 },
+									{ 385.00020025, 919.90561063, -2087.624086 },
+									{ 385.00021894, 911.69171877, -2087.802833 },
+									{ 385.00297943, 405.33257297, -2087.802833 },
+									{ 385.00741306, 4.2560218775, -2087.802833 } }"
+
+				polylineSegmentConn="{ { 0, 1 },
+									{ 1, 2 },
+									{ 2, 3 },
+									{ 3, 4 },
+									{ 4, 5 },
+									{ 5, 6 },
+									{ 6, 7 },
+									{ 7, 8 },
+									{ 8, 9 },
+									{ 9, 10 },
+									{ 10, 11 },
+									{ 11, 12 },
+									{ 12, 13 },
+									{ 13, 14 },
+									{ 14, 15 },
+									{ 15, 16 },
+									{ 16, 17 },
+									{ 17, 18 },
+									{ 18, 19 },
+									{ 19, 20 },
+									{ 20, 21 },
+									{ 21, 22 },
+									{ 22, 23 },
+									{ 23, 24 },
+									{ 24, 25 },
+									{ 25, 26 },
+									{ 26, 27 },
+									{ 27, 28 },
+									{ 28, 29 },
+									{ 29, 30 },
+									{ 30, 31 },
+									{ 31, 32 },
+									{ 32, 33 },
+									{ 33, 34 },
+									{ 34, 35 },
+									{ 35, 36 },
+									{ 36, 37 },
+									{ 37, 38 },
+									{ 38, 39 } }"
+				radius="0.1"
+				numElementsPerSegment="1">
+				<Perforation
+					name="Injector_2_W_perf1"
+					distanceFromHead="2159.5723647666355"/>
+				<Perforation
+					name="Injector_2_W_perf2"
+					distanceFromHead="2211.3906533520712"/>
+				<Perforation
+					name="Injector_2_W_perf3"
+					distanceFromHead="2559.6634126254976"/>
+				<Perforation
+					name="Injector_2_W_perf4"
+					distanceFromHead="2953.320650475478"/>
+				<Perforation
+					name="Injector_2_W_perf5"
+					distanceFromHead="3069.195526435416"/>
+			</InternalWell>
+
+
+
+			<InternalWell
+				name="Injector_3_W"
+				wellRegionName="wellRegion1"
+				wellControlsName="wellControls1"
+				meshName="mesh"
+				polylineNodeCoords="{ { 765.0, 1100.0, -0.0 },
+									{ 765.0, 1100.0, -1900.0 },
+									{ 765.0, 1099.8207731, -1908.191845 },
+									{ 765.0, 1099.2834335, -1916.368095 },
+									{ 765.00000002, 1098.3890041, -1924.513189 },
+									{ 765.00000005, 1097.1391875, -1932.61162 },
+									{ 765.00000012, 1095.5363628, -1940.647973 },
+									{ 765.00000025, 1093.583581, -1948.60695 },
+									{ 765.00000047, 1091.2845594, -1956.473401 },
+									{ 765.0000008, 1088.6436743, -1964.232352 },
+									{ 765.00000127, 1085.6659528, -1971.869033 },
+									{ 765.00000192, 1082.3570632, -1979.368907 },
+									{ 765.00000279, 1078.723304, -1986.717698 },
+									{ 765.00000393, 1074.7715924, -1993.901416 },
+									{ 765.00000537, 1070.5094507, -2000.906389 },
+									{ 765.00000715, 1065.944992, -2007.71928 },
+									{ 765.00000934, 1061.0869052, -2014.327121 },
+									{ 765.00001197, 1055.9444378, -2020.717334 },
+									{ 765.0000151, 1050.5273789, -2026.877755 },
+									{ 765.00001877, 1044.8460401, -2032.796657 },
+									{ 765.00002302, 1038.9112361, -2038.462772 },
+									{ 765.00002791, 1032.7342643, -2043.865317 },
+									{ 765.00003349, 1026.3268827, -2048.994005 },
+									{ 765.00003978, 1019.7012883, -2053.839074 },
+									{ 765.00004684, 1012.8700932, -2058.391303 },
+									{ 765.00005469, 1005.846301, -2062.642024 },
+									{ 765.00006338, 998.64328191, -2066.583147 },
+									{ 765.00007293, 991.27474724, -2070.20717 },
+									{ 765.00008337, 983.75472343, -2073.507193 },
+									{ 765.00009471, 976.09752528, -2076.476936 },
+									{ 765.00010698, 968.3177287, -2079.110745 },
+									{ 765.00012018, 960.43014297, -2081.403606 },
+									{ 765.00013432, 952.44978256, -2083.351156 },
+									{ 765.00014939, 944.39183854, -2084.949686 },
+									{ 765.00016539, 936.27164967, -2086.196154 },
+									{ 765.0001823, 928.10467318, -2087.088186 },
+									{ 765.0002001, 919.90645538, -2087.624086 },
+									{ 765.00021877, 911.69260204, -2087.802833 },
+									{ 765.00297714, 405.33583136, -2087.802833 },
+									{ 765.00740737, 4.2611615573, -2087.802833 } }"
+
+				polylineSegmentConn="{ { 0, 1 },
+									{ 1, 2 },
+									{ 2, 3 },
+									{ 3, 4 },
+									{ 4, 5 },
+									{ 5, 6 },
+									{ 6, 7 },
+									{ 7, 8 },
+									{ 8, 9 },
+									{ 9, 10 },
+									{ 10, 11 },
+									{ 11, 12 },
+									{ 12, 13 },
+									{ 13, 14 },
+									{ 14, 15 },
+									{ 15, 16 },
+									{ 16, 17 },
+									{ 17, 18 },
+									{ 18, 19 },
+									{ 19, 20 },
+									{ 20, 21 },
+									{ 21, 22 },
+									{ 22, 23 },
+									{ 23, 24 },
+									{ 24, 25 },
+									{ 25, 26 },
+									{ 26, 27 },
+									{ 27, 28 },
+									{ 28, 29 },
+									{ 29, 30 },
+									{ 30, 31 },
+									{ 31, 32 },
+									{ 32, 33 },
+									{ 33, 34 },
+									{ 34, 35 },
+									{ 35, 36 },
+									{ 36, 37 },
+									{ 37, 38 },
+									{ 38, 39 } }"
+				radius="0.1"
+				numElementsPerSegment="1">
+				<Perforation
+					name="Injector_3_W_perf1"
+					distanceFromHead="2159.5723489044967"/>
+				<Perforation
+					name="Injector_3_W_perf2"
+					distanceFromHead="2211.391079124932"/>
+				<Perforation
+					name="Injector_3_W_perf3"
+					distanceFromHead="2559.6654834554893"/>
+				<Perforation
+					name="Injector_3_W_perf4"
+					distanceFromHead="2953.3239088654545"/>
+				<Perforation
+					name="Injector_3_W_perf5"
+					distanceFromHead="3069.1971556304"/>
+			</InternalWell>
+
+
+
+			<InternalWell
+				name="Injector_4_W"
+				wellRegionName="wellRegion1"
+				wellControlsName="wellControls1"
+				meshName="mesh"
+				polylineNodeCoords="{ { 1145.0, 1100.0, -0.0 },
+									{ 1145.0, 1100.0, -1900.0 },
+									{ 1145.0, 1099.8207739, -1908.191845 },
+									{ 1145.0, 1099.2834369, -1916.368095 },
+									{ 1145.0, 1098.3890117, -1924.513189 },
+									{ 1145.0, 1097.1392009, -1932.61162 },
+									{ 1145.0000001, 1095.5363837, -1940.647973 },
+									{ 1145.0000003, 1093.5836111, -1948.60695 },
+									{ 1145.0000005, 1091.2846003, -1956.473401 },
+									{ 1145.0000008, 1088.6437276, -1964.232352 },
+									{ 1145.0000013, 1085.66602, -1971.869033 },
+									{ 1145.0000019, 1082.3571459, -1979.368907 },
+									{ 1145.0000028, 1078.7234037, -1986.717698 },
+									{ 1145.0000039, 1074.7717106, -1993.901416 },
+									{ 1145.0000054, 1070.5095889, -2000.906389 },
+									{ 1145.0000071, 1065.9451517, -2007.71928 },
+									{ 1145.0000093, 1061.0870876, -2014.327121 },
+									{ 1145.000012, 1055.9446443, -2020.717334 },
+									{ 1145.0000151, 1050.5276108, -2026.877755 },
+									{ 1145.0000188, 1044.8462986, -2032.796657 },
+									{ 1145.000023, 1038.9115224, -2038.462772 },
+									{ 1145.0000279, 1032.7345795, -2043.865317 },
+									{ 1145.0000335, 1026.327228, -2048.994005 },
+									{ 1145.0000397, 1019.7016647, -2053.839074 },
+									{ 1145.0000468, 1012.8705016, -2058.391303 },
+									{ 1145.0000546, 1005.8467423, -2062.642024 },
+									{ 1145.0000633, 998.64375697, -2066.583147 },
+									{ 1145.0000729, 991.27525684, -2070.20717 },
+									{ 1145.0000833, 983.75526828, -2073.507193 },
+									{ 1145.0000946, 976.09810602, -2076.476936 },
+									{ 1145.0001069, 968.3183459, -2079.110745 },
+									{ 1145.0001201, 960.43079714, -2081.403606 },
+									{ 1145.0001342, 952.45047413, -2083.351156 },
+									{ 1145.0001493, 944.39256788, -2084.949686 },
+									{ 1145.0001653, 936.27241707, -2086.196154 },
+									{ 1145.0001822, 928.10547886, -2087.088186 },
+									{ 1145.0001999, 919.90729948, -2087.624086 },
+									{ 1145.0002186, 911.69348465, -2087.802833 },
+									{ 1145.0029749, 405.33908728, -2087.802833 },
+									{ 1145.0074017, 4.2662973199, -2087.802833 } }"
+
+				polylineSegmentConn="{ { 0, 1 },
+									{ 1, 2 },
+									{ 2, 3 },
+									{ 3, 4 },
+									{ 4, 5 },
+									{ 5, 6 },
+									{ 6, 7 },
+									{ 7, 8 },
+									{ 8, 9 },
+									{ 9, 10 },
+									{ 10, 11 },
+									{ 11, 12 },
+									{ 12, 13 },
+									{ 13, 14 },
+									{ 14, 15 },
+									{ 15, 16 },
+									{ 16, 17 },
+									{ 17, 18 },
+									{ 18, 19 },
+									{ 19, 20 },
+									{ 20, 21 },
+									{ 21, 22 },
+									{ 22, 23 },
+									{ 23, 24 },
+									{ 24, 25 },
+									{ 25, 26 },
+									{ 26, 27 },
+									{ 27, 28 },
+									{ 28, 29 },
+									{ 29, 30 },
+									{ 30, 31 },
+									{ 31, 32 },
+									{ 32, 33 },
+									{ 33, 34 },
+									{ 34, 35 },
+									{ 35, 36 },
+									{ 36, 37 },
+									{ 37, 38 },
+									{ 38, 39 } }"
+				radius="0.1"
+				numElementsPerSegment="1">
+				<Perforation
+					name="Injector_4_W_perf1"
+					distanceFromHead="2159.572333054853"/>
+				<Perforation
+					name="Injector_4_W_perf2"
+					distanceFromHead="2211.3915045802873"/>
+				<Perforation
+					name="Injector_4_W_perf3"
+					distanceFromHead="2559.6675527204807"/>
+				<Perforation
+					name="Injector_4_W_perf4"
+					distanceFromHead="2953.327164785431"/>
+				<Perforation
+					name="Injector_4_W_perf5"
+					distanceFromHead="3069.198783590384"/>
+			</InternalWell>
+
+
+
+			<InternalWell
+				name="Producer_1_O"
+				wellRegionName="wellRegion1"
+				wellControlsName="wellControls1"
+				meshName="mesh"
+				polylineNodeCoords="{ { 195.0, 1100.0, -0.0 },
+									{ 195.0, 1100.0, -1900.0 },
+									{ 195.0, 1099.8207718, -1908.191845 },
+									{ 195.0, 1099.2834285, -1916.368095 },
+									{ 195.00000002, 1098.3889928, -1924.513189 },
+									{ 195.00000005, 1097.1391674, -1932.61162 },
+									{ 195.00000012, 1095.5363314, -1940.647973 },
+									{ 195.00000025, 1093.5835359, -1948.60695 },
+									{ 195.00000047, 1091.2844981, -1956.473401 },
+									{ 195.0000008, 1088.6435944, -1964.232352 },
+									{ 195.00000127, 1085.665852, -1971.869033 },
+									{ 195.00000192, 1082.356939, -1979.368907 },
+									{ 195.0000028, 1078.7231543, -1986.717698 },
+									{ 195.00000393, 1074.7714149, -1993.901416 },
+									{ 195.00000537, 1070.5092431, -2000.906389 },
+									{ 195.00000716, 1065.9447524, -2007.71928 },
+									{ 195.00000935, 1061.0866314, -2014.327121 },
+									{ 195.00001199, 1055.9441278, -2020.717334 },
+									{ 195.00001512, 1050.5270308, -2026.877755 },
+									{ 195.00001879, 1044.845652, -2032.796657 },
+									{ 195.00002305, 1038.9108062, -2038.462772 },
+									{ 195.00002795, 1032.7337909, -2043.865317 },
+									{ 195.00003352, 1026.3263643, -2048.994005 },
+									{ 195.00003983, 1019.7007232, -2053.839074 },
+									{ 195.00004689, 1012.8694801, -2058.391303 },
+									{ 195.00005476, 1005.8456384, -2062.642024 },
+									{ 195.00006345, 998.64256864, -2066.583147 },
+									{ 195.00007301, 991.27398211, -2070.20717 },
+									{ 195.00008346, 983.75390539, -2073.507193 },
+									{ 195.00009482, 976.09665335, -2076.476936 },
+									{ 195.0001071, 968.31680202, -2079.110745 },
+									{ 195.00012032, 960.42916078, -2081.403606 },
+									{ 195.00013447, 952.44874421, -2083.351156 },
+									{ 195.00014956, 944.39074349, -2084.949686 },
+									{ 195.00016558, 936.27049747, -2086.196154 },
+									{ 195.00018251, 928.10346351, -2087.088186 },
+									{ 195.00020033, 919.90518801, -2087.624086 },
+									{ 195.00021902, 911.69127688, -2087.802833 },
+									{ 195.00298057, 405.33094284, -2087.802833 },
+									{ 195.0074159, 4.2534505672, -2087.802833 } }"
+
+				polylineSegmentConn="{ { 0, 1 },
+									{ 1, 2 },
+									{ 2, 3 },
+									{ 3, 4 },
+									{ 4, 5 },
+									{ 5, 6 },
+									{ 6, 7 },
+									{ 7, 8 },
+									{ 8, 9 },
+									{ 9, 10 },
+									{ 10, 11 },
+									{ 11, 12 },
+									{ 12, 13 },
+									{ 13, 14 },
+									{ 14, 15 },
+									{ 15, 16 },
+									{ 16, 17 },
+									{ 17, 18 },
+									{ 18, 19 },
+									{ 19, 20 },
+									{ 20, 21 },
+									{ 21, 22 },
+									{ 22, 23 },
+									{ 23, 24 },
+									{ 24, 25 },
+									{ 25, 26 },
+									{ 26, 27 },
+									{ 27, 28 },
+									{ 28, 29 },
+									{ 29, 30 },
+									{ 30, 31 },
+									{ 31, 32 },
+									{ 32, 33 },
+									{ 33, 34 },
+									{ 34, 35 },
+									{ 35, 36 },
+									{ 36, 37 },
+									{ 37, 38 },
+									{ 38, 39 } }"
+				radius="0.1"
+				numElementsPerSegment="1">
+				<Perforation
+					name="Producer_1_O_perf1"
+					distanceFromHead="2159.5723727039517"/>
+				<Perforation
+					name="Producer_1_O_perf2"
+					distanceFromHead="2211.3904403443876"/>
+				<Perforation
+					name="Producer_1_O_perf3"
+					distanceFromHead="2559.6623766155017"/>
+				<Perforation
+					name="Producer_1_O_perf4"
+					distanceFromHead="2953.3190203454897"/>
+				<Perforation
+					name="Producer_1_O_perf5"
+					distanceFromHead="3069.1947113704236"/>
+			</InternalWell>
+
+
+
+			<InternalWell
+				name="Producer_2_O"
+				wellRegionName="wellRegion1"
+				wellControlsName="wellControls1"
+				meshName="mesh"
+				polylineNodeCoords="{ { 575.0, 1100.0, -0.0 },
+									{ 575.0, 1100.0, -1900.0 },
+									{ 575.0, 1099.8207727, -1908.191845 },
+									{ 575.0, 1099.2834318, -1916.368095 },
+									{ 575.00000002, 1098.3890003, -1924.513189 },
+									{ 575.00000005, 1097.1391808, -1932.61162 },
+									{ 575.00000012, 1095.5363523, -1940.647973 },
+									{ 575.00000025, 1093.583566, -1948.60695 },
+									{ 575.00000047, 1091.284539, -1956.473401 },
+									{ 575.0000008, 1088.6436477, -1964.232352 },
+									{ 575.00000127, 1085.6659192, -1971.869033 },
+									{ 575.00000192, 1082.3570218, -1979.368907 },
+									{ 575.00000279, 1078.7232541, -1986.717698 },
+									{ 575.00000393, 1074.7715332, -1993.901416 },
+									{ 575.00000537, 1070.5093815, -2000.906389 },
+									{ 575.00000716, 1065.9449122, -2007.71928 },
+									{ 575.00000935, 1061.086814, -2014.327121 },
+									{ 575.00001198, 1055.9443345, -2020.717334 },
+									{ 575.00001511, 1050.5272629, -2026.877755 },
+									{ 575.00001877, 1044.8459108, -2032.796657 },
+									{ 575.00002303, 1038.9110929, -2038.462772 },
+									{ 575.00002793, 1032.7341065, -2043.865317 },
+									{ 575.0000335, 1026.32671, -2048.994005 },
+									{ 575.0000398, 1019.7011, -2053.839074 },
+									{ 575.00004685, 1012.8698889, -2058.391303 },
+									{ 575.00005471, 1005.8460802, -2062.642024 },
+									{ 575.0000634, 998.64304424, -2066.583147 },
+									{ 575.00007296, 991.2744923, -2070.20717 },
+									{ 575.0000834, 983.75445085, -2073.507193 },
+									{ 575.00009475, 976.09723475, -2076.476936 },
+									{ 575.00010702, 968.31741992, -2079.110745 },
+									{ 575.00012023, 960.4298157, -2081.403606 },
+									{ 575.00013437, 952.44943657, -2083.351156 },
+									{ 575.00014944, 944.39147366, -2084.949686 },
+									{ 575.00016545, 936.27126575, -2086.196154 },
+									{ 575.00018237, 928.10427011, -2087.088186 },
+									{ 575.00020018, 919.90603308, -2087.624086 },
+									{ 575.00021885, 911.69216049, -2087.802833 },
+									{ 575.00297829, 405.33420248, -2087.802833 },
+									{ 575.00741021, 4.2585922065, -2087.802833 } }"
+
+				polylineSegmentConn="{ { 0, 1 },
+									{ 1, 2 },
+									{ 2, 3 },
+									{ 3, 4 },
+									{ 4, 5 },
+									{ 5, 6 },
+									{ 6, 7 },
+									{ 7, 8 },
+									{ 8, 9 },
+									{ 9, 10 },
+									{ 10, 11 },
+									{ 11, 12 },
+									{ 12, 13 },
+									{ 13, 14 },
+									{ 14, 15 },
+									{ 15, 16 },
+									{ 16, 17 },
+									{ 17, 18 },
+									{ 18, 19 },
+									{ 19, 20 },
+									{ 20, 21 },
+									{ 21, 22 },
+									{ 22, 23 },
+									{ 23, 24 },
+									{ 24, 25 },
+									{ 25, 26 },
+									{ 26, 27 },
+									{ 27, 28 },
+									{ 28, 29 },
+									{ 29, 30 },
+									{ 30, 31 },
+									{ 31, 32 },
+									{ 32, 33 },
+									{ 33, 34 },
+									{ 34, 35 },
+									{ 35, 36 },
+									{ 36, 37 },
+									{ 37, 38 },
+									{ 38, 39 } }"
+				radius="0.1"
+				numElementsPerSegment="1">
+				<Perforation
+					name="Producer_2_O_perf1"
+					distanceFromHead="2159.5723568334834"/>
+				<Perforation
+					name="Producer_2_O_perf2"
+					distanceFromHead="2211.390866278919"/>
+				<Perforation
+					name="Producer_2_O_perf3"
+					distanceFromHead="2559.6644482404936"/>
+				<Perforation
+					name="Producer_2_O_perf4"
+					distanceFromHead="2623.7200000000003"/>
+				<Perforation
+					name="Producer_2_O_perf5"
+					distanceFromHead="2953.3222799854657"/>
+				<Perforation
+					name="Producer_2_O_perf6"
+					distanceFromHead="3069.196341190408"/>
+			</InternalWell>
+
+
+
+			<InternalWell
+				name="Producer_3_O"
+				wellRegionName="wellRegion1"
+				wellControlsName="wellControls1"
+				meshName="mesh"
+				polylineNodeCoords="{ { 955.0, 1100.0, -0.0 },
+									{ 955.0, 1100.0, -1900.0 },
+									{ 955.0, 1099.8207735, -1908.191845 },
+									{ 955.0, 1099.2834352, -1916.368095 },
+									{ 955.00000002, 1098.3890079, -1924.513189 },
+									{ 955.00000005, 1097.1391942, -1932.61162 },
+									{ 955.00000012, 1095.5363732, -1940.647973 },
+									{ 955.00000025, 1093.5835961, -1948.60695 },
+									{ 955.00000047, 1091.2845799, -1956.473401 },
+									{ 955.00000079, 1088.643701, -1964.232352 },
+									{ 955.00000127, 1085.6659864, -1971.869033 },
+									{ 955.00000192, 1082.3571045, -1979.368907 },
+									{ 955.00000279, 1078.7233539, -1986.717698 },
+									{ 955.00000392, 1074.7716515, -1993.901416 },
+									{ 955.00000536, 1070.5095198, -2000.906389 },
+									{ 955.00000715, 1065.9450719, -2007.71928 },
+									{ 955.00000934, 1061.0869964, -2014.327121 },
+									{ 955.00001197, 1055.9445411, -2020.717334 },
+									{ 955.00001509, 1050.5274949, -2026.877755 },
+									{ 955.00001876, 1044.8461694, -2032.796657 },
+									{ 955.00002301, 1038.9113793, -2038.462772 },
+									{ 955.0000279, 1032.7344219, -2043.865317 },
+									{ 955.00003347, 1026.3270554, -2048.994005 },
+									{ 955.00003976, 1019.7014765, -2053.839074 },
+									{ 955.00004682, 1012.8702974, -2058.391303 },
+									{ 955.00005467, 1005.8465217, -2062.642024 },
+									{ 955.00006336, 998.64351949, -2066.583147 },
+									{ 955.0000729, 991.27500209, -2070.20717 },
+									{ 955.00008334, 983.75499591, -2073.507193 },
+									{ 955.00009468, 976.0978157, -2076.476936 },
+									{ 955.00010694, 968.31803736, -2079.110745 },
+									{ 955.00012013, 960.43047011, -2081.403606 },
+									{ 955.00013426, 952.45012841, -2083.351156 },
+									{ 955.00014933, 944.39220328, -2084.949686 },
+									{ 955.00016532, 936.27203344, -2086.196154 },
+									{ 955.00018223, 928.10507609, -2087.088186 },
+									{ 955.00020002, 919.90687751, -2087.624086 },
+									{ 955.00021868, 911.69304343, -2087.802833 },
+									{ 955.002976, 405.33745963, -2087.802833 },
+									{ 955.00740453, 4.2637299285, -2087.802833 } }"
+
+				polylineSegmentConn="{ { 0, 1 },
+									{ 1, 2 },
+									{ 2, 3 },
+									{ 3, 4 },
+									{ 4, 5 },
+									{ 5, 6 },
+									{ 6, 7 },
+									{ 7, 8 },
+									{ 8, 9 },
+									{ 9, 10 },
+									{ 10, 11 },
+									{ 11, 12 },
+									{ 12, 13 },
+									{ 13, 14 },
+									{ 14, 15 },
+									{ 15, 16 },
+									{ 16, 17 },
+									{ 17, 18 },
+									{ 18, 19 },
+									{ 19, 20 },
+									{ 20, 21 },
+									{ 21, 22 },
+									{ 22, 23 },
+									{ 23, 24 },
+									{ 24, 25 },
+									{ 25, 26 },
+									{ 26, 27 },
+									{ 27, 28 },
+									{ 28, 29 },
+									{ 29, 30 },
+									{ 30, 31 },
+									{ 31, 32 },
+									{ 32, 33 },
+									{ 33, 34 },
+									{ 34, 35 },
+									{ 35, 36 },
+									{ 36, 37 },
+									{ 37, 38 },
+									{ 38, 39 } }"
+				radius="0.1"
+				numElementsPerSegment="1">
+				<Perforation
+					name="Producer_3_O_perf1"
+					distanceFromHead="2159.5723409796747"/>
+				<Perforation
+					name="Producer_3_O_perf2"
+					distanceFromHead="2211.391291895109"/>
+				<Perforation
+					name="Producer_3_O_perf3"
+					distanceFromHead="2559.666518285485"/>
+				<Perforation
+					name="Producer_3_O_perf4"
+					distanceFromHead="2953.3255371354426"/>
+				<Perforation
+					name="Producer_3_O_perf5"
+					distanceFromHead="3069.1979697653924"/>
+			</InternalWell>
+		       
+	</Mesh>
+
+	<Solvers>
+		<CompositionalMultiphaseReservoir
+			name="coupledFlowAndWells"
+			flowSolverName="compositionalMultiphaseFlow"
+			wellSolverName="compositionalMultiphaseWell"
+			logLevel="1"
+			initialDt="1e4"
+			targetRegions="{ reservoir, wellRegion1 }">
+			
+			<NonlinearSolverParameters
+				newtonTol="1.0e-4"
+				newtonMaxIter="25"
+				timeStepDecreaseIterLimit="0.9"
+				timeStepIncreaseIterLimit="0.6"
+				timeStepCutFactor="0.1"
+				maxTimeStepCuts="10"
+				lineSearchAction="None"/>
+				<LinearSolverParameters
+				solverType="fgmres"
+				preconditionerType="mgr"
+				krylovTol="1e-4"
+				krylovAdaptiveTol="1"
+				krylovWeakestTol="1e-2"/>
+		</CompositionalMultiphaseReservoir>
+
+		<CompositionalMultiphaseFVM
+			name="compositionalMultiphaseFlow"
+			targetRegions="{ reservoir }"
+			discretization="fluidTPFA"
+			temperature="297.15"
+			maxCompFractionChange="0.3"
+			logLevel="1"
+			useMass="1"/>
+			
+		<CompositionalMultiphaseWell
+			name="compositionalMultiphaseWell"
+			targetRegions="{ wellRegion1 }"
+			maxCompFractionChange="0.5"
+			logLevel="1"
+			useMass="1">
+			<WellControls
+				name="wellControls1"
+				type="producer"
+				control="totalVolRate"
+				useSurfaceConditions="1"
+				referenceElevation="-2068"
+				surfacePressure="101325"
+				surfaceTemperature="15.5556"
+				targetTotalRate="68"/>			
+			<WellControls
+				name="wellControls2"
+				type="injector"
+				control="BHP"
+				useSurfaceConditions="1"
+				referenceElevation="-2068"
+				surfacePressure="101325"
+				surfaceTemperature="15.5556"
+				targetBHP="32000000"
+				targetPhaseRate="60"				
+				targetPhaseName="water"/>
+		</CompositionalMultiphaseWell>
+	</Solvers>
+
+	<Events
+		maxTime="1.5e7">
+		<PeriodicEvent
+			name="MySilo"
+			timeFrequency="2e6"
+			target="/Outputs/SiloOutput"/>
+
+		<PeriodicEvent
+			name="timeHistoryOutput1"
+			timeFrequency="1.5e7"
+			target="/Outputs/timeHistoryOutput1"/>
+
+		
+		<PeriodicEvent
+			name="solverApplications"
+			maxEventDt="5e5"
+			target="/Solvers/coupledFlowAndWells"/>
+
+		<PeriodicEvent
+			name="timeHistoryCollection1"
+			timeFrequency="1e6"
+			target="/Tasks/wellRateCollection1"/>
+
+		<PeriodicEvent
+			name="restarts"
+			timeFrequency="7.5e6"
+			targetExactTimestep="0"
+			target="/Outputs/restartOutput"/>    
+	</Events>
+
+
+	<NumericalMethods>
+		<FiniteVolume>
+			<TwoPointFluxApproximation
+				name="fluidTPFA"/>
+		</FiniteVolume>
+	</NumericalMethods>
+
+	<ElementRegions>
+		<CellElementRegion
+			name="reservoir"
+			cellBlocks="{ hexahedra }"
+			materialList="{ fluid, rock, relperm }"/>
+
+		<WellElementRegion
+			name="wellRegion1"
+			materialList="{ fluid, relperm }"/>
+	</ElementRegions>
+
+
+	<Constitutive>
+		<DeadOilFluid
+			name="fluid"
+			phaseNames="{ oil, water }"
+			surfaceDensities="{ 873.5, 1013 }"
+			componentMolarWeight="{ 114e-3, 18e-3 }"
+			tableFiles="{ PVDO.txt, PVTW.txt }"/>
+
+		<TableRelativePermeability
+			name="relperm"
+			phaseNames="{ oil, water }"
+			wettingNonWettingRelPermTableNames="{ waterRelativePermeabilityTable, oilRelativePermeabilityTable }"/>
+
+		<CompressibleSolidConstantPermeability
+			name="rock"
+			solidModelName="nullSolid"
+			porosityModelName="rockPorosity"
+			permeabilityModelName="rockPerm"/>
+
+		<NullModel
+			name="nullSolid"/>
+
+		<PressurePorosity
+			name="rockPorosity"
+			defaultReferencePorosity="0.3"
+			referencePressure="101325"
+			compressibility="6.0e-12"/>		
+	</Constitutive>
+
+
+	<FieldSpecifications>
+		<FieldSpecification
+			name="initialPressure"
+			initialCondition="1"
+			setNames="{ all }"
+			objectPath="ElementRegions/reservoir/hexahedra"
+			fieldName="pressure"
+			scale="100000"
+			functionName="pressureFunc"/>
+
+		<FieldSpecification
+			name="referencePorosity"
+			initialCondition="1"
+			setNames="{ all }"
+			objectPath="ElementRegions/Reservoir"
+			fieldName="rockPorosity_referencePorosity"
+			scale="1"
+			functionName="poroFunc"/>
+
+		<FieldSpecification
+			name="initialComposition_oil"
+			initialCondition="1"
+			setNames="{ all }"
+			objectPath="ElementRegions/reservoir/hexahedra"
+			fieldName="globalCompFraction"
+			component="0"
+			scale="0.95"/>
+
+		<FieldSpecification
+			name="initialComposition_water"
+			initialCondition="1"
+			setNames="{ all }"
+			objectPath="ElementRegions/reservoir/hexahedra"
+			fieldName="globalCompFraction"
+			component="1"
+			scale="0.05"/>
+
+		<FieldSpecification
+			name="permx"
+			initialCondition="1"
+			component="0"
+			setNames="{ all }"
+			objectPath="ElementRegions/Reservoir"
+			fieldName="rockPerm_permeability"
+			scale="9.8692326671601E-16"
+			functionName="permxFunc"/>
+
+		<FieldSpecification
+			name="permy"
+			initialCondition="1"
+			component="1"
+			setNames="{ all }"
+			objectPath="ElementRegions/Reservoir"
+			fieldName="rockPerm_permeability"
+			scale="9.8692326671601E-16"
+			functionName="permyFunc"/>
+
+		<FieldSpecification
+			name="permz"
+			initialCondition="1"
+			component="2"
+			setNames="{ all }"
+			objectPath="ElementRegions/Reservoir"
+			fieldName="rockPerm_permeability"
+			scale="9.8692326671601E-16"
+			functionName="permzFunc"/>
+
+	</FieldSpecifications>
+
+
+	<Functions>    
+		<TableFunction
+			name="waterRelativePermeabilityTable"
+			coordinateFiles="{ phaseVolFraction_water.txt }"
+			voxelFile="relPerm_water.txt"/>
+
+		<TableFunction
+			name="oilRelativePermeabilityTable"
+			coordinateFiles="{ phaseVolFraction_oil.txt }"
+			voxelFile="relPerm_oil.txt"/>
+
+		<TableFunction
+			name="permxFunc"
+			inputVarNames="{ elementCenter }"
+			coordinateFiles="{ xlin.geos, ylin.geos, zlin.geos }"
+			voxelFile="permx.geos"
+			interpolation="linear"/>
+
+		<TableFunction
+			name="permyFunc"
+			inputVarNames="{ elementCenter }"
+			coordinateFiles="{ xlin.geos, ylin.geos, zlin.geos }"
+			voxelFile="permy.geos"
+			interpolation="linear"/>
+
+		<TableFunction
+			name="permzFunc"
+			inputVarNames="{ elementCenter }"
+			coordinateFiles="{ xlin.geos, ylin.geos, zlin.geos }"
+			voxelFile="permz.geos"
+			interpolation="linear"/> 
+
+		<TableFunction
+			name="pressureFunc"
+			inputVarNames="{ elementCenter }"
+			coordinateFiles="{ xlin.geos, ylin.geos, zlin.geos }"
+			voxelFile="pressure.geos"
+			interpolation="linear"/>
+
+		<TableFunction
+			name="poroFunc"
+			inputVarNames="{ elementCenter }"
+			coordinateFiles="{ xlin.geos, ylin.geos, zlin.geos }"
+			voxelFile="poro.geos"
+			interpolation="linear"/> 
+	</Functions>      
+
+
+	<Outputs>
+		<Silo
+			name="SiloOutput"/>
+
+		<TimeHistory
+			name="timeHistoryOutput1"
+			sources="{ /Tasks/wellRateCollection1 }"
+			filename="wellRateHistory1"/>
+
+		<Restart
+			name="restartOutput"/>
+
+	</Outputs>
+
+	
+	<Tasks>
+		<PackCollection
+			name="wellRateCollection1"
+			objectPath="ElementRegions/wellRegion1/wellRegion1UniqueSubRegion"
+			fieldName="wellElementMixtureConnectionRate"/>
+	</Tasks>
+
+</Problem>
